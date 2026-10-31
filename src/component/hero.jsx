@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 function hero() {
     return(
 
@@ -12,13 +13,13 @@ function hero() {
           <div>
             <ul className="flex gap-6 max-lg:gap-2.5">
               <li className="hover:text-orange cursor-pointer list-none">
-                 <link to درباره ما
+                 <Link to="/about">درباره ما</Link>
               </li>
               <li className="hover:text-orange cursor-pointer list-none">
-                تماس با ما
+                <Link to="/contact">تماس با ما</Link>
               </li>
               <li className="hover:text-orange cursor-pointer list-none">
-                وبلاگ
+                <Link to="/blog">وبلاگ</Link>
               </li>
               <li className="hover:text-orange flex cursor-pointer list-none items-center">
                 <img
@@ -26,7 +27,7 @@ function hero() {
                   alt=""
                   className="px-1"
                   />
-                <span> فروشگاه</span>
+                <Link to="/shop">فروشگاه</Link>
               </li>
               <li className="hover:text-orange flex cursor-pointer list-none items-center">
                 <img
@@ -34,7 +35,7 @@ function hero() {
                   alt=""
                   className="px-1"
                 />
-                <span>خانه </span>
+                <Link to="/">خانه</Link>
               </li>
             </ul>
           </div>
