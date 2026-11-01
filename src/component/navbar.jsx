@@ -2,7 +2,7 @@ function nav() {
   return (
     <>
       <div className="my-8 grid grid-cols-3 items-center gap-[33px] max-lg:grid-cols-1">
-        <div className=" hover bg-ligth-orange flex items-center justify-between rounded-[19px] px-4 py-0">
+        <div className=" hover bg-ligth-orange flex items-center justify-between rounded-[19px] px-4 py-0 cursor-pointer ">
           <div>
             <img  src="public/images/Arrow - Left Circle.svg" alt="" />
           </div>
@@ -11,7 +11,7 @@ function nav() {
             <img src="public/images/dog-sticker.svg" alt="" />
           </div>
         </div>
-        <div className="hover bg-light-blu flex items-center justify-between rounded-[19px] px-4 py-2">
+        <div className="hover bg-light-blu flex items-center justify-between rounded-[19px] px-4 py-2 cursor-pointer">
           <div>
             <img src="public/images/Arrow - Left Circle -blue.svg" alt="" />
           </div>
@@ -20,7 +20,7 @@ function nav() {
             <img src="public/images/cat-sticker.svg" alt="" />
           </div>
         </div>
-        <div className="hover  flex items-center justify-between rounded-[19px] px-4 py-2">
+        <div className="hover  flex items-center justify-between rounded-[19px] px-4 py-2 cursor-pointer">
           <div>
             <img src="public/images/Arrow - Left-purple Circle.svg" alt="" />
           </div>

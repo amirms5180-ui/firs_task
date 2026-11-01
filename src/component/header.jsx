@@ -8,17 +8,17 @@ function header() {
         <div className="header_rigth flex justify-between gap-[40px]">
           <div className="header_icons flex items-center gap-[29px] max-lg:hidden">
             <img
-              className="h-[33.12px] w-[26.399999618530273]"
+              className="h-[33.12px] w-[26.399999618530273] cursor-pointer"
               src="public/images/Group 8768.svg"
               alt=""
             />
             <img
-              className="h-[32.568145751953125] w-[33.33320236206055]"
+              className="h-[32.568145751953125] w-[33.33320236206055] cursor-pointer"
               src="public/images/Heart.svg"
               alt=""
             />
             <img
-              className="h-[39.28px] w-[45.6px]"
+              className="h-[39.28px] w-[45.6px] cursor-pointer"
               src="public/images/Buy.svg"
               alt=""
             />
@@ -29,7 +29,7 @@ function header() {
               <p className="opacity-26"> تمامی خرید ها</p>
             </div>
             <img
-              className="h-[37.5PX] w-[37.5PX]"
+              className="h-[37.5PX] w-[37.5PX] "
               src="public/images/ersalrayegan.svg"
               alt=""
             />
@@ -40,7 +40,7 @@ function header() {
               <p className="opacity-26"> تضمین اصالت 100 </p>
             </div>
             <img
-              className="h-[38.54px] w-[47.25px]"
+              className="h-[37.5px] w-[37.5px] "
               src="public/images/Tick-Square.svg"
               alt=""
             />

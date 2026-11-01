@@ -16,7 +16,7 @@ function Item({ image, title, price }) {
           :قیمت
         </p>
       </div>
-      <button className="bg-blue group-hover:bg-orange my-2 flex items-center justify-center gap-2 rounded-xl px-4 py-2 transition-colors duration-300">
+      <button className="bg-blue group-hover:bg-orange my-2 flex items-center justify-center gap-2 rounded-xl px-4 py-2 transition-colors duration-300 cursor-pointer">
         <p className="text-white">افزودن سبد خرید</p>
         <img src="public/images/Combined-Shape.svg" alt="" />
       </button>

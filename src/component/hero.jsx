@@ -58,7 +58,7 @@ function hero() {
               لورم ایپسوم متن ساختگی باتولید سادگی نا مفهوم
               <tr>از صنقت چاپ,و بااستفاده از طراحان گرافیک است</tr>
             </p>
-            <button className="bg-purple flex items-center gap-4 rounded-full px-2 py-2">
+            <button className="bg-purple flex items-center gap-4 rounded-full px-2 py-2 cursor-pointer" >
               <img
                 className="pl-0"
                 src="public/images/Arrow---Left-Circle.svg"
